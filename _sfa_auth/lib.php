@@ -62,7 +62,7 @@ function sfa_check_rights($bCookies = true)
 	
 	if($bCookies)
 	{
-		$dt 	     = $_COOKIE;
+		$dt = $_COOKIE;
 		$sfaConfPass = md5(_SFA_PASS);
 	}
 	else 
