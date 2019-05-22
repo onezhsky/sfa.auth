@@ -5,7 +5,7 @@ function sfa_login_form($err = 0)
 {
 	?>
 	<form action="" method="post">
-	 <p>Авторизация на сервере для разработки:</p>
+	 <p>Авторизация на демо-сервере:</p>
 	 <?php if($err==1) { ?>
 	 <p style="color:#d00;">Неправильный логин/пароль. Попробуйте, пожалуйста, ещё раз.</p>
 	 <?php } ?>
@@ -37,7 +37,7 @@ function sfa_design_top()
 {
 	?><html>
 			<head>
-				<title>Авторизация на сервере для разработки</title>
+				<title>Авторизация на демо-сервере</title>
 				<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />				
 			</head>
 			<body>
